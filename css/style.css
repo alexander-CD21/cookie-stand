@@ -1,0 +1,67 @@
+:root{
+    --font-encabezados:"Righteous", sans-serif;
+    --font-sale:"Arial", sans-serif;
+    --font-texto:"Georgia", sans-serif;
+    --color-fondo-header:black;
+    --color-texto:black;
+    --color-fondo-nav:salmon; 
+    --color-h1:salmon;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-fondo-header);
+    height: 150px;
+}
+header h1{
+    color:var(--color-h1);
+    font-family: var(--font-encabezados);
+    font-weight: 400;
+    font-size:40px;
+    text-align: center;
+    padding-top: 20px;
+}
+header nav{
+    background-color: var(--color-fondo-nav);
+    height:  40px;
+    display: flex;
+    align-items: center;
+}
+header nav a{
+    font-family: var(--font-sale);
+    padding-left: 10px;
+}
+main img{
+    display: block;
+    margin:50px auto;
+}
+
+h2{
+    font-family: var(--font-encabezados);
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+main li{
+    font-family: var(--font-texto);
+    font-weight: 100;
+}
+div{
+    margin-left: 20px;
+}
+footer{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+}
